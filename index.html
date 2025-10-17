@@ -1,86 +1,110 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="en" dir="ltr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wave Watches - تشكيلة الساعات لنيويورك</title>
+    <title>Wave Watches - Luxury New York Collection</title>
     <style>
+        /* Global Styles for an Elegant Look */
         body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f4f4f9;
-            color: #333;
+            font-family: 'Georgia', serif; /* Classic, luxurious font */
+            background-color: #f8f8f8; /* Very light gray for background */
+            color: #1a1a1a; /* Dark text for contrast */
             margin: 0;
             padding: 0;
             text-align: center;
         }
+        /* Header and Brand Name */
         header {
-            background-color: #3f51b5;
-            color: white;
-            padding: 20px 0;
-            margin-bottom: 20px;
+            background-color: #333333; /* Dark Charcoal Header */
+            color: #ffffff;
+            padding: 30px 0;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        header h1 {
+            font-family: 'Times New Roman', serif;
+            font-size: 2.5em;
+            letter-spacing: 2px;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.1em;
+            opacity: 0.8;
+            margin-top: 5px;
         }
         .container {
             width: 90%;
-            max-width: 1000px;
+            max-width: 1100px;
             margin: auto;
             padding: 0 15px;
         }
         .product-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 20px;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
         }
+        /* Individual Product Card Styling */
         .product-card {
             background-color: white;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            padding: 15px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-            text-align: right;
+            border: 1px solid #e0e0e0;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08); /* Soft shadow */
+            text-align: left;
+            transition: transform 0.3s;
+        }
+        .product-card:hover {
+            transform: translateY(-5px); /* Lift effect on hover */
         }
         .product-card img {
             width: 100%;
-            height: auto;
-            border-radius: 6px;
-            margin-bottom: 10px;
-            background-color: #ccc;
-            height: 200px; 
+            height: 250px; 
             object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            background-color: #e6e6e6; /* Placeholder color */
         }
         .product-card h3 {
-            color: #3f51b5;
+            color: #333333;
             margin-top: 0;
-            font-size: 1.5em;
+            font-size: 1.8em;
+            border-bottom: 1px solid #cccccc;
+            padding-bottom: 8px;
+            margin-bottom: 10px;
         }
         .product-card p {
             font-size: 1.1em;
-            color: #666;
+            color: #555555;
+            line-height: 1.5;
         }
         .price {
-            font-size: 1.4em;
-            color: #e91e63;
+            font-size: 1.6em;
+            color: #b8860b; /* Gold/Luxury Color */
             font-weight: bold;
-            margin: 10px 0;
+            margin: 15px 0;
         }
+        /* WhatsApp Button - Professional Style */
         .whatsapp-btn {
             display: inline-block;
-            background-color: #25d366;
+            background-color: #b8860b; /* Gold/Luxury Color */
             color: white;
-            padding: 10px 20px;
-            border-radius: 50px;
+            padding: 12px 25px;
+            border-radius: 5px;
             text-decoration: none;
             font-weight: bold;
             margin-top: 15px;
             transition: background-color 0.3s;
+            text-transform: uppercase;
         }
         .whatsapp-btn:hover {
-            background-color: #128c7e;
+            background-color: #a0740a;
         }
         footer {
-            background-color: #333;
+            background-color: #333333;
             color: white;
-            padding: 15px 0;
-            margin-top: 30px;
+            padding: 25px 0;
+            margin-top: 50px;
             font-size: 0.9em;
         }
     </style>
@@ -89,8 +113,8 @@
 
     <header>
         <div class="container">
-            <h1>Wave Watches - توصيل سريع لنيويورك</h1>
-            <p>أناقة لا تنتهي في كل ثانية</p>
+            <h1>WAVE WATCHES</h1>
+            <p>Exclusive Timepieces - Direct to New York City</p>
         </div>
     </header>
 
@@ -98,22 +122,22 @@
         <div class="product-grid">
 
             <div class="product-card">
-                <img src="https://via.placeholder.com/300x200?text=ساعة+كلاسيكية" alt="ساعة كلاسيكية">
-                <h3>الساعة الكلاسيكية الفاخرة</h3>
-                <p>ساعة جلدية بمينا أبيض، تصميم سويسري أنيق.</p>
-                <div class="price">$350 USD</div>
-                <a href="https://wa.me/19175551212?text=Hello,%20I%20am%20interested%20in%20the%20Classic%20Watch." class="whatsapp-btn" target="_blank">
-                    Order via WhatsApp 💬
+                <img src="https://via.placeholder.com/300x250?text=Manhattan+Classic" alt="Manhattan Classic Watch">
+                <h3>The Manhattan Classic</h3>
+                <p>An elegant Swiss automatic watch with a genuine leather strap and diamond-cut bezel. Water resistance up to 50 meters.</p>
+                <div class="price">$799 USD</div>
+                <a href="https://wa.me/19175551212?text=Hello,%20I%20am%20interested%20in%20The%20Manhattan%20Classic%20Watch%20($799)." class="whatsapp-btn" target="_blank">
+                    INQUIRE VIA WHATSAPP
                 </a>
             </div>
 
             <div class="product-card">
-                <img src="https://via.placeholder.com/300x200?text=ساعة+رياضية" alt="ساعة رياضية">
-                <h3>الساعة الرياضية الذكية</h3>
-                <p>تتبع اللياقة والنوم، بطارية تدوم أسبوعاً. متوفرة باللون الأسود.</p>
-                <div class="price">$499 USD</div>
-                <a href="https://wa.me/19175551212?text=Hello,%20I%20am%20interested%20in%20the%20Smart%20Watch." class="whatsapp-btn" target="_blank">
-                    Order via WhatsApp 💬
+                <img src="https://via.placeholder.com/300x250?text=Brooklyn+Sport" alt="Brooklyn Sport Watch">
+                <h3>The Brooklyn Sport Edition</h3>
+                <p>High-performance chronograph watch designed for the active New Yorker. Durable stainless steel case and a multi-year battery life.</p>
+                <div class="price">$550 USD</div>
+                <a href="https://wa.me/19175551212?text=Hello,%20I%20am%20interested%20in%20The%20Brooklyn%20Sport%20Edition%20($550)." class="whatsapp-btn" target="_blank">
+                    INQUIRE VIA WHATSAPP
                 </a>
             </div>
 
@@ -121,7 +145,7 @@
     </div>
 
     <footer>
-        <p>For inquiries and orders, please contact us via WhatsApp.</p>
+        <p>&copy; 2025 Wave Watches. For NYC orders, please contact us directly.</p>
     </footer>
 
 </body>
